@@ -1,0 +1,121 @@
+body,html{
+    width:auto;
+    height:auto;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    
+}
+.wrapper ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    color:white;
+    font-size: large;
+    margin-top: 0px;
+}
+.wrapper li{
+    display: inline;
+    float:left;
+}
+@media screen and (max-width:600px) {
+    .wrapper li{
+        float:none;
+    }
+}
+.wrapper li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 20px 16px;
+}
+.wrapper li a:hover{
+    background-color: white;
+    color:black;
+}
+
+.hero_content{ 
+    width:100%;
+    height:300px;
+    text-align: center;
+    padding:14px 16px;
+    margin-top:0;
+    margin-bottom: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/10/12/03/school-3596680_640.jpg);
+    background-color: darkslategray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero_content h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    color: aliceblue;
+}
+.hero_content p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+    color: aliceblue;
+}
+.column{
+    width:45%;
+    padding:40px;
+    background-color: rgb(255, 255, 255);
+    flex:50%;
+}
+.column.column1{
+    height:100px;
+}
+.column.column2{
+    height: 400px;
+}
+.row{
+    display:flex;
+}
+@media screen and (max-width:600px){
+    .column{
+        width:100%;
+    }
+}
+.section1{
+    background-image: url(https://images.pexels.com/videos/4769557/pexels-photo-4769557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    width: 99%;
+    height: 99%;
+    display: inline-block;
+    position: relative;
+}
+.section2{
+    background-image: url(https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg);
+    background-size: cover;
+    width: 99%;
+    height: 99%;
+    display: inline-block;
+    position: relative;
+}
+.column h2{
+    font-size: 150%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.column p2{
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.forms-button{
+    height: 5%;
+    width:5%;
+    margin-left:50%;
+    border: 0;
+    margin-top:30px;
+}
+.forms-button:hover{
+    height: 6%;
+    width:6%;
+    margin-left:50%;
+    border: 0;
+    margin-top:30px;
+}
